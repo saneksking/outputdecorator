@@ -1,4 +1,4 @@
-# Output Decorator
+# Output Decorator <sup>v0.0.2</sup>
 
 ***
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/saneksking/outputdecorator)](https://github.com/saneksking/outputdecorator/)

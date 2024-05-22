@@ -6,4 +6,4 @@
 # --------------------------------------------------------
 from output_decorator.decorators import StringDecorator
 """Output Decorator - Library for decorating strings in CLI apps """
-__version__ = '0.0.1'
+__version__ = '0.0.2'

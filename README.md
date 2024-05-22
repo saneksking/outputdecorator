@@ -1,6 +1,5 @@
 # Output Decorator <sup>v0.0.2</sup>
 
-***
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/saneksking/outputdecorator)](https://github.com/saneksking/outputdecorator/)
 [![PyPI - Downloads](https://img.shields.io/pypi/dm/outputdecorator?label=pypi%20downloads)](https://pypi.org/project/outputdecorator/)
 ![GitHub top language](https://img.shields.io/github/languages/top/saneksking/outputdecorator)

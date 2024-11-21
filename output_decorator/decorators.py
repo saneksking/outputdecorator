@@ -24,3 +24,13 @@ class StringDecorator:
             print(result_string)
         else:
             return result_string
+
+    @classmethod
+    def framed_decorate(cls, text='', top_symbol='-', bottom_symbol='-'):
+        text_len = len(text)
+        top = top_symbol * text_len
+        bottom = bottom_symbol * text_len
+        return f'{top}\n{text}\n{bottom}'
+
+
+print(StringDecorator.framed_decorate('Hello World!', '*'))

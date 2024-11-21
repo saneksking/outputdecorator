@@ -1,4 +1,4 @@
-# Output Decorator <sup>v0.0.2</sup>
+# Output Decorator <sup>v0.0.3</sup>
 
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/saneksking/outputdecorator)](https://github.com/saneksking/outputdecorator/)
 [![PyPI - Downloads](https://img.shields.io/pypi/dm/outputdecorator?label=pypi%20downloads)](https://pypi.org/project/outputdecorator/)
@@ -21,6 +21,13 @@ text = StringDecorator.string_decorate(text='Python', symbol='*', print_flag=Fal
 print(text) # ************************************ Python ***********************************
 
 StringDecorator.string_decorate(text='Python', symbol='*', print_flag=True) 
+
+StringDecorator.framed_decorate(text='Python', top_symbol='*', bottom_symbol='-')
+"""
+******
+Python
+------
+"""
 # Output: ************************************ Python ***********************************
 
 ```
